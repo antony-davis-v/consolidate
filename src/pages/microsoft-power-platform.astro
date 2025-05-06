@@ -1,0 +1,36 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Navbar4 } from "../components/shadcnblocks/navbar/Navbar4";
+import { Hero12 } from "../components/shadcnblocks/microsoft-power-platform/Hero12";
+import { Feature78 } from "../components/shadcnblocks/microsoft-power-platform/Feature78";
+import { Hero85 } from "../components/shadcnblocks/microsoft-power-platform/Hero85";
+import { Feature145 } from "../components/shadcnblocks/microsoft-power-platform/Feature145";
+import { Feature82 } from "../components/shadcnblocks/microsoft-power-platform/Feature82";
+import { Feature125 } from "../components/shadcnblocks/microsoft-power-platform/Feature125";
+import { Faq4 } from "../components/shadcnblocks/microsoft-power-platform/Faq4";
+import { Gallery6 } from "../components/shadcnblocks/microsoft-power-platform/Gallery6";
+import { Footer6 } from "../components/shadcnblocks/footer/footer6";
+---
+
+<Layout>
+  <Navbar4 client:visible />
+  <Hero12 client:visible />
+  <section id="copilot">
+  <Feature78 client:visible />
+  </section>
+  <section id="powerbi">
+  <Hero85 client:visible />
+  </section>
+  <section id="powerapps">
+  <Feature145 client:visible />
+  </section>
+  <section id="powerautomate">
+  <Feature82 client:visible />
+  </section>
+  <section id="powerpages">
+  <Feature125 client:visible />
+  </section>
+  <Faq4 client:visible />
+  <Gallery6 client:visible />
+  <Footer6 client:visible />
+</Layout>

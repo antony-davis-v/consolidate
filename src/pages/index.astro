@@ -1,11 +1,24 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Layout.astro";
+import { Navbar4 } from "../components/shadcnblocks/navbar/Navbar4";
+import { Streamlinetemplatehero } from "../components/shadcnblocks/index/Streamlinetemplatehero";
+import { Logos7 } from "../components/shadcnblocks/index/Logos7";
+import { Feature181 } from "../components/shadcnblocks/index/Feature181";
+import { Gallery4 } from "../components/shadcnblocks/index/Gallery4";
+import { Feature69 } from "../components/shadcnblocks/index/Feature69";
+import { Feature114 } from "../components/shadcnblocks/index/Feature114";
+import { Gallery6 } from "../components/shadcnblocks/index/Gallery6";
+import { Footer6 } from "../components/shadcnblocks/footer/footer6";
 ---
 
 <Layout>
-	<Welcome />
+  <Navbar4 client:visible />
+  <Streamlinetemplatehero client:visible />
+  <Logos7 client:visible />
+  <Feature181 />
+  <Gallery4 client:visible items={[]} />
+  <Feature69 client:visible />
+  <Feature114 client:visible />
+  <Gallery6 client:visible />
+  <Footer6 />
 </Layout>

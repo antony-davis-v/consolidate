@@ -1,0 +1,12 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Navbar4 } from "../components/shadcnblocks/navbar/Navbar4";
+import { About6 } from "../components/shadcnblocks/legal/About6";
+import { Footer6 } from "../components/shadcnblocks/footer/footer6";
+---
+
+<Layout>
+  <Navbar4 client:visible />
+  <About6 client:visible />
+  <Footer6 client:visible />
+</Layout>
