@@ -1,0 +1,13 @@
+name = "valuenodeconsolidate"
+account_id = "139bb1df28f22946e59b30be45a09fdd"
+workers_dev = true
+compatibility_date = "2025-04-04"
+main = "workers-site/index.js"  # if using a custom worker
+
+[site]
+bucket = "./dist/cloudflare"
+
+
+# LOCAL VAR for wrangler dev
+[vars]
+RESEND_API_KEY = "re_5ESmJo7C_PZnthM4TMwrv7oC3dZHhxY1G"
