@@ -7,18 +7,24 @@ import { Feature181 } from "../components/shadcnblocks/index/Feature181";
 import { Gallery4 } from "../components/shadcnblocks/index/Gallery4";
 import { Feature69 } from "../components/shadcnblocks/index/Feature69";
 import { Feature114 } from "../components/shadcnblocks/index/Feature114";
-import { Gallery6 } from "../components/shadcnblocks/index/Gallery6";
+import { Gallery6 } from "../components/shadcnblocks/common/Gallery6";
 import { Footer6 } from "../components/shadcnblocks/footer/footer6";
 ---
 
 <Layout>
-  <Navbar4 client:visible />
+  <Navbar4 client:load/>
+    <!-- @ts-ignore -->
   <Streamlinetemplatehero client:visible />
+    <!-- @ts-ignore -->
   <Logos7 client:visible />
   <Feature181 />
-  <Gallery4 client:visible items={[]} />
+    <!-- @ts-ignore -->
+  <Gallery4 client:visible />
+    <!-- @ts-ignore -->
   <Feature69 client:visible />
+    <!-- @ts-ignore -->
   <Feature114 client:visible />
+    <!-- @ts-ignore -->
   <Gallery6 client:visible />
   <Footer6 />
 </Layout>

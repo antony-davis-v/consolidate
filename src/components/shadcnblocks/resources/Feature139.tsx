@@ -1,5 +1,7 @@
 "use client";
 
+import Resources2 from '@/assets/common/resources1.png';
+
 const Feature139 = () => {
   return (
     <section className="py-32">
@@ -16,7 +18,7 @@ const Feature139 = () => {
             </div>
             <div className="w-full max-w-lg">
               <img
-                src="https://shadcnblocks.com/images/block/placeholder-1.svg"
+                src={Resources2.src}
                 alt="placeholder"
                 className="max-h-[420px] w-full rounded-lg object-cover"
               />

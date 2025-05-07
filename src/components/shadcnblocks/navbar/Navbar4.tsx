@@ -37,45 +37,49 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 
-import logo1 from '@/assets/logos/icon final GB.png';
-import img1 from "@/assets/dataandai/img1.png";
-import img2 from "@/assets/dataandai/img2.png";
-import img3 from "@/assets/dataandai/img3.png";
+import logo1 from "@/assets/logos/icon final GB.png";
+import navbar1 from "@/assets/navbar/navbar1.png";
+import navbar2 from "@/assets/navbar/navbar2.png";
+import navbar3 from "@/assets/navbar/navbar3.png";
+import navabr4 from "@/assets/navbar/navbar4.png";
+import { sub } from "date-fns";
 
 
 // Data Arrays
 const DataandAI = [
   {
-    title: "Data Solutions",
-    description:"test",
-    src: img1.src,
+    title: "Data and AI",
+    description:"Delve deeper into advanced Data and AI Intelligence for your business",
+    subtitle: "Data Solutions",
+    href: "./data-and-ai",
+    src: navbar1.src,
     features: [
       {
         id: "feature-1",
         title: "Data Engineering",
         description: "Transform how your organization works with our platform.",
-        href: "/data-and-ai#dataeng",
+        href: "/data-and-ai",
         icon: DatabaseBackup,
       },
       {
         id: "feature-2",
         title: "Data Modelling",
         description: "Expert guidance for organizational change and adoption.",
-        href: "/data-and-ai#dataeng",
+        href: "/data-and-ai",
         icon: Atom,
       },
       {
         id: "feature-3",
         title: "Data Visualization",
         description: "Roll out and scale across global teams seamlessly.",
-        href: "/data-and-ai#dataeng",
+        href: "/data-and-ai",
         icon: ChartColumn,
       },
       {
         id: "feature-4",
         title: "AI Integration",
         description: "Roll out and scale across global teams seamlessly.",
-        href:"/data-and-ai#dataeng",
+        href:"/data-and-ai",
         icon: BrainCircuit,
       },
     ],
@@ -84,9 +88,11 @@ const DataandAI = [
 
 const FinanceIntelligence = [
   {
-    title: "Strategic Finance Solutions",
-    description:"test",
-    src: img1.src,
+    title: "Finance Intelligence",
+    description:"Empower CFOs to drive smarter financial decisions with Finance Intelligence",
+    subtitle: "Strategic Finance",
+    href: "./finance-intelligence",
+    src: navbar2.src,
     features: [
       {
         id: "feature-1",
@@ -143,9 +149,11 @@ const FinanceIntelligence = [
 
 const MicrosoftPowerPlatform = [
   {
-    title: "Low code Solutions",
-    description:"test",
-    src: img2.src,
+    title: "Microsoft Power Platform",
+    description:"Discover how teams can build faster solutions with Low-Code Power Platform",
+    subtitle: "Low code Platform",
+    href: "./microsoft-power-platform",
+    src: navbar3.src,
     features: [
       {
         id: "feature-1",
@@ -188,9 +196,11 @@ const MicrosoftPowerPlatform = [
 
 const OffShoreStaffing = [
   {
-    title: "Staffing Solutions",
-     description:"test",
-     src: img3.src,
+    title: "OffShore Staffing",
+     description:"Hire top Indian Finance and IT talent—efficiently and affordably",
+     subtitle: "Staff Augmentation",
+     href: "./offshore-staffing",
+     src: navabr4.src,
     features: [
       {
         id: "feature-1",
@@ -214,6 +224,8 @@ interface ValuenodeMenuProps {
   data: {
     title: string;
     description: string;
+    subtitle: string;
+    href: string;
     src: string;
     features: {
       id: string;
@@ -225,19 +237,16 @@ interface ValuenodeMenuProps {
   }[];
 }
 
-const menu = [
-  "dataandai",
-  "financeintelligence",
-  "microsoftpowerplatform",
-  "offshorestaffing",
-];
+
 
 const ValuenodeMenu = ({ data }: ValuenodeMenuProps) => (
   <div>
     <div className="space-y-6 lg:flex lg:items-start lg:space-y-0 lg:space-x-8">
       <div className="w-full shrink-0 lg:max-w-[18rem]">
-        <a
-          href="#"
+          {data.map((category) => (
+            <a
+            key={category.title}
+            href={category.href}
           className="group relative flex h-full flex-row overflow-hidden rounded-lg p-0 text-primary-foreground lg:rounded-xl"
         >
           <div className="relative z-10 flex w-full flex-col-reverse text-left lg:flex-col">
@@ -258,7 +267,7 @@ const ValuenodeMenu = ({ data }: ValuenodeMenuProps) => (
           <div key={category.title} className="grid gap-y-2 lg:gap-y-6">
             <div className="border-border text-left lg:border-b lg:pb-3">
               <strong className="text-left text-xs font-medium tracking-wider text-muted-foreground uppercase">
-                {category.title}
+                {category.subtitle}
               </strong>
             </div>
                 <ArrowRight className="ml-1 size-4 transition-transform group-hover:translate-x-1" />
@@ -275,6 +284,7 @@ const ValuenodeMenu = ({ data }: ValuenodeMenuProps) => (
             </div>
           </div>
         </a>
+          ))}
       </div>
       <div className="grid w-full gap-y-12 lg:gap-y-6">
         {data.map((category) => (
@@ -335,7 +345,7 @@ const Navbar4 = () => {
               <img
                 src={logo1.src}
                 className="max-h-4 md:max-h-5 lg:max-h-6"
-                alt="Shadcn UI Navbar"
+                alt="Valuenode"
               />
             
             </a>
@@ -376,7 +386,9 @@ const Navbar4 = () => {
               </NavigationMenuList>
             </div>
             <div className="flex items-center gap-2">
+            <a href="./contact">
               <Button className="hidden md:block">Contact us</Button>
+              </a>
               <Button
                 variant="ghost"
                 size="icon"
@@ -487,7 +499,9 @@ const Navbar4 = () => {
 
               {/* Mobile menu footer */}
               <div className="mx-[2rem] mt-auto flex flex-col items-center gap-8 py-24">
+              <a href="./contact">
                 <Button>Book a meeting</Button>
+                </a>
                 <div className="flex flex-col items-center gap-2">
                   <p className="text-xs">Talk to an expert:</p>
                   <a

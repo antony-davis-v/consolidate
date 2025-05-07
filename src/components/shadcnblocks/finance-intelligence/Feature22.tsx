@@ -52,10 +52,10 @@ const Feature22 = () => {
               </ul>
               <div className="h-px border-t border-dashed"></div>
               <a
-                href="#"
+                href="https://outlook.office365.com/book/Valuenode@valuenode.com/s/WVupA6gsR0KVVu36Q0-McA2"
                 className="my-3 text-muted-foreground flex items-center gap-2 px-4 font-medium sm:my-4 sm:px-5 md:px-6"
               >
-                Read more
+                Book a demo
                 <ChevronRight className="mt-0.5 size-4" />
               </a>
             </div>
@@ -98,10 +98,10 @@ const Feature22 = () => {
               </ul>
               <div className="h-px border-t border-dashed"></div>
               <a
-                href="#"
+                href="https://outlook.office365.com/book/Valuenode@valuenode.com/s/WVupA6gsR0KVVu36Q0-McA2"
                 className="my-3 text-muted-foreground flex items-center gap-2 px-4 font-medium sm:my-4 sm:px-5 md:px-6"
               >
-                Read more
+               Book a demo
                 <ChevronRight className="mt-0.5 size-4" />
               </a>
             </div>
@@ -142,10 +142,10 @@ const Feature22 = () => {
               </ul>
               <div className="h-px border-t border-dashed"></div>
               <a
-                href="#"
+                href="https://outlook.office365.com/book/Valuenode@valuenode.com/s/WVupA6gsR0KVVu36Q0-McA2"
                 className="my-3 text-muted-foreground flex items-center gap-2 px-4 font-medium sm:my-4 sm:px-5 md:px-6"
               >
-                Read more
+                Book a demo
                 <ChevronRight className="mt-0.5 size-4" />
               </a>
             </div>
@@ -188,10 +188,10 @@ const Feature22 = () => {
               </ul>
               <div className="h-px border-t border-dashed"></div>
               <a
-                href="#"
+                href="https://outlook.office365.com/book/Valuenode@valuenode.com/s/WVupA6gsR0KVVu36Q0-McA2"
                 className="my-3 text-muted-foreground flex items-center gap-2 px-4 font-medium sm:my-4 sm:px-5 md:px-6"
               >
-                Read more
+                Book a demo
                 <ChevronRight className="mt-0.5 size-4" />
               </a>
             </div>
@@ -234,10 +234,10 @@ const Feature22 = () => {
               </ul>
               <div className="h-px border-t border-dashed"></div>
               <a
-                href="#"
+                href="https://outlook.office365.com/book/Valuenode@valuenode.com/s/WVupA6gsR0KVVu36Q0-McA2"
                 className="my-3 text-muted-foreground flex items-center gap-2 px-4 font-medium sm:my-4 sm:px-5 md:px-6"
               >
-                Read more
+                Book a demo
                 <ChevronRight className="mt-0.5 size-4" />
               </a>
             </div>
@@ -280,10 +280,10 @@ const Feature22 = () => {
               </ul>
               <div className="h-px border-t border-dashed"></div>
               <a
-                href="#"
+                href="https://outlook.office365.com/book/Valuenode@valuenode.com/s/WVupA6gsR0KVVu36Q0-McA2"
                 className="my-3 text-muted-foreground flex items-center gap-2 px-4 font-medium sm:my-4 sm:px-5 md:px-6"
               >
-                Read more
+                Book a demo
                 <ChevronRight className="mt-0.5 size-4" />
               </a>
             </div>
@@ -326,10 +326,10 @@ const Feature22 = () => {
               </ul>
               <div className="h-px border-t border-dashed"></div>
               <a
-                href="#"
+                href="https://outlook.office365.com/book/Valuenode@valuenode.com/s/WVupA6gsR0KVVu36Q0-McA2"
                 className="my-3 text-muted-foreground flex items-center gap-2 px-4 font-medium sm:my-4 sm:px-5 md:px-6"
               >
-                Read more
+                Book a demo
                 <ChevronRight className="mt-0.5 size-4" />
               </a>
             </div>

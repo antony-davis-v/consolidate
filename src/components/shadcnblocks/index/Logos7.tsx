@@ -1,68 +1,119 @@
 "use client";
 
+import icon1 from '@/assets/index/icon1.png';
+import icon2 from '@/assets/index/icon2.png';
+import icon5 from '@/assets/index/icon5.png';
+import icon6 from '@/assets/index/icon6.png';
+import icon7 from '@/assets/index/icon7.png';
+import icon8 from '@/assets/index/icon8.png';
+import icon9 from '@/assets/index/icon9.png';
+import icon10 from '@/assets/index/icon10.png';
+import icon11 from '@/assets/index/icon11.png';
+import icon12 from '@/assets/index/icon12.png';
+import icon13 from '@/assets/index/icon13.png';
+import icon14 from '@/assets/index/icon14.png';
+import icon15 from '@/assets/index/icon15.png';
+import icon16 from '@/assets/index/icon16.png';
+
+
 const ITEMS = [
   {
-    name: "Mercury",
-    src: "https://shadcnblocks.com/images/block/mainline/logos/mercury.svg",
-    width: 143,
-    height: 26,
-    href: "https://mercury.com",
-  },
-  {
-    name: "Watershed",
-    src: "https://shadcnblocks.com/images/block/mainline/logos/watershed.svg",
-    width: 154,
-    height: 31,
-    href: "https://watershed.com",
-  },
-  {
-    name: "Retool",
-    src: "https://shadcnblocks.com/images/block/mainline/logos/retool.svg",
-    width: 113,
-    height: 22,
-    href: "https://retool.com",
-  },
-  {
-    name: "Descript",
-    src: "https://shadcnblocks.com/images/block/mainline/logos/descript.svg",
-    width: 112,
-    height: 27,
-    href: "https://descript.com",
-  },
-  {
-    name: "Perplexity",
-    src: "https://shadcnblocks.com/images/block/mainline/logos/perplexity.svg",
-    width: 141,
-    height: 32,
-    href: "https://perplexity.ai",
-  },
-  {
-    name: "Monzo",
-    src: "https://shadcnblocks.com/images/block/mainline/logos/monzo.svg",
-    width: 104,
-    height: 18,
-    href: "https://monzo.com",
-  },
-  {
-    name: "Ramp",
-    src: "https://shadcnblocks.com/images/block/mainline/logos/ramp.svg",
-    width: 105,
-    height: 28,
-    href: "https://ramp.com",
-  },
-  {
-    name: "Raycast",
-    src: "https://shadcnblocks.com/images/block/mainline/logos/raycast.svg",
-    width: 128,
-    height: 33,
-    href: "https://raycast.com",
-  },
-  {
-    name: "Arc",
-    src: "https://shadcnblocks.com/images/block/mainline/logos/arc.svg",
+    name: "Alteryx",
+    src: icon1,
     width: 90,
-    height: 28,
-    href: "https://arc.com",
+    height: 14,
+    href: "https://www.alteryx.com",
+  },
+  {
+    name: "Apache Kafka",
+    src: icon2,
+    width: 90,
+    height: 14,
+    href: "https://kafka.apache.org",
+  },
+  {
+    name: "Azure Data Factory",
+    src: icon5,
+    width: 90,
+    height: 14,
+    href: "https://azure.microsoft.com/services/data-factory/",
+  },
+  {
+    name: "Cloudera",
+    src: icon6,
+    width: 90,
+    height: 14,
+    href: "https://www.cloudera.com",
+  },
+  {
+    name: "Databricks",
+    src: icon7,
+    width: 90,
+    height: 14,
+    href: "https://www.databricks.com",
+  },
+  {
+    name: "Docker",
+    src: icon8,
+    width: 90,
+    height: 14,
+    href: "https://www.docker.com",
+  },
+  {
+    name: "GitHub",
+    src: icon9,
+    width: 90,
+    height: 14,
+    href: "https://github.com",
+  },
+  {
+    name: "Google Cloud Platform",
+    src: icon10,
+    width: 90,
+    height: 14,
+    href: "https://cloud.google.com",
+  },
+  {
+    name: "Kong Gateway",
+    src: icon11,
+    width: 90,
+    height: 14,
+    href: "https://konghq.com",
+  },
+  {
+    name: "Kubernetes",
+    src: icon12,
+    width: 90,
+    height: 14,
+    href: "https://kubernetes.io",
+  },
+  {
+    name: "Azure Synapse Analytics",
+    src: icon13,
+    width: 90,
+    height: 14,
+    href: "https://azure.microsoft.com/services/synapse-analytics/",
+  },
+  {
+    name: "Snowflake",
+    src: icon14,
+    width: 90,
+    height: 14,
+    href: "https://www.snowflake.com",
+  },
+  {
+    name: "Postman",
+    src: icon15,
+    width: 90,
+    height: 14,
+    href: "https://www.postman.com",
+  },
+  {
+    name: "MuleSoft",
+    src: icon16,
+    width: 90,
+    height: 14,
+    href: "https://www.mulesoft.com",
   },
 ];
 
@@ -80,7 +131,7 @@ const Logos7 = () => {
             {ITEMS.map((logo, index) => (
               <a href={logo.href} target="_blank" key={index} className="p-6">
                 <img
-                  src={logo.src}
+                  src={logo.src.src}
                   alt={logo.name}
                   width={logo.width}
                   height={logo.height}
@@ -93,7 +144,7 @@ const Logos7 = () => {
             {ITEMS.map((logo, index) => (
               <a href={logo.href} target="_blank" key={index} className="p-6">
                 <img
-                  src={logo.src}
+                  src={logo.src.src}
                   alt={logo.name}
                   width={logo.width}
                   height={logo.height}

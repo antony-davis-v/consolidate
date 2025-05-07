@@ -57,12 +57,12 @@ export const Streamlinetemplatehero = () => {
             </span>
           </h1>
           <div className="flex flex-wrap items-center gap-4">
+          <a href="./data-and-ai" className="hover:text-accent-foreground">
             <Button aria-label="Get started">
-              <a href="/data-and-ai">
               Explore our Data and AI solutions
-              </a>
             </Button>
-            <a href="/contact">
+          </a>
+            <a href="/contact" className="hover:text-accent-foreground">
               <Button
                 aria-label="Explore our offerings"
                 variant="outline"
@@ -81,7 +81,7 @@ export const Streamlinetemplatehero = () => {
             api={api}
           />
         </div>
-        <div className="relative -mr-[max(5rem,calc((100vw-80rem)/2+5rem))] shadow-xl max-lg:translate-x-10 lg:shadow-2xl">
+        <div className="relative -mr-[max(5rem,calc((58vw-40rem)/2+5rem))] shadow-xl max-lg:translate-x-10 lg:shadow-2xl">
           <Carousel
             className="size-full [&>div]:size-full"
             setApi={setApi}

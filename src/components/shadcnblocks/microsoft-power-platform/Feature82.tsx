@@ -49,7 +49,9 @@ const Feature82 = () => {
             measurable efficiency gains, error reduction, and accelerated
             business impact.
           </p>
+          <a href="./contact" className="hover:text-accent-foreground">
           <Button className="mx-auto w-fit lg:mx-0 lg:ml-auto">Explore</Button>
+          </a>
         </div>
         <Separator className="mt-8 mb-12" />
         <ul className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4 lg:gap-20">

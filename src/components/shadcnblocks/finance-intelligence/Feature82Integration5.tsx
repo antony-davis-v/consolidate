@@ -80,7 +80,7 @@ const Feature82Integration5 = () => {
             </p>
             <div className="mt-0">
               <a
-                href="#"
+                href="./contact"
                 className="inline-flex items-center gap-1 text-muted-foreground font-medium hover:underline"
               >
                 Explore integrations <ArrowRight className="w-4 h-4" />

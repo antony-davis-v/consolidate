@@ -7,10 +7,10 @@ import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carouse
 import type { CarouselApi } from "@/components/ui/carousel";
 
 import landing1 from "@/assets/index/msppsection1.png";
-import landing2 from "@/assets/index/msppsection1.png";
-import landing3 from "@/assets/index/msppsection1.png";
-import landing4 from "@/assets/index/msppsection1.png";
-import landing5 from "@/assets/index/msppsection1.png";
+import landing2 from "@/assets/index/msppsection2.png";
+import landing3 from "@/assets/index/msppsection3.png";
+import landing4 from "@/assets/index/msppsection4.png";
+import landing5 from "@/assets/index/msppsection5.png";
 
 
 export interface Gallery4Item {
@@ -33,35 +33,35 @@ const data: Gallery4Item[] = [
     id: "power-bi",
     title: "Power BI",
     description: "",
-    href: "https://ui.shadcn.com",
+    href: "microsoft-power-platform#powerbi",
     image:landing1.src,
   },
   {
     id: "power-apps",
     title: "Power Apps",
     description: "",
-    href: "https://tailwindcss.com",
+    href: "microsoft-power-platform#powerapps",
     image:landing2.src,
   },
   {
     id: "power-automate",
     title: "Power Automate",
     description: "",
-    href: "https://astro.build",
+    href: "microsoft-power-platform#powerautomate",
     image:landing3.src,
   },
   {
     id: "power-pages",
     title: "Power Pages",
     description: "",
-    href: "https://react.dev",
+    href: "microsoft-power-platform#powerpages",
     image:landing4.src,
   },
   {
     id: "copilot",
     title: "Copilot",
     description: "",
-    href: "https://nextjs.org",
+    href: "microsoft-power-platform#copilot",
     image:landing5.src,
   },
 ];
@@ -102,12 +102,12 @@ const Gallery4 = ({
               <h2 className="m-0 text-2xl font-semibold tracking-tight leading-normal md:text-3xl lg:text-4xl">{subtitle}</h2>
             </div>
             <p className="max-w-lg text-lg text-muted-foreground">{description}</p>
+            <a href="./microsoft-power-platform" className="hover:text-accent-foreground">
             <Button className="rounded-md w-fit">
-              <a href="/microsoft-power-platform">
               Dive Deeper
-              </a>
               <ChevronRight className="ml-2 size-4" />
             </Button>
+            </a>
           </div>
           <div className="hidden shrink-0 gap-2 md:flex">
             <Button

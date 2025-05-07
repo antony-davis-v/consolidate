@@ -66,7 +66,7 @@ const Feature152 = () => (
           Powering next-gen CFO intelligence
         </h1>
         <Button variant="link" asChild className="text-muted-foreground">
-          <a href="#">
+          <a href="./contact">
             Partner with us <ArrowRight className="size-4" />
           </a>
         </Button>

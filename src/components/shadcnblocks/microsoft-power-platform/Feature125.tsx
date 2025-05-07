@@ -31,10 +31,12 @@ const Feature125 = () => {
             </li>
           ))}
         </ul>
+        <a href="./contact" className="hover:text-accent-foreground">
         <Button variant="outline">
-          Learn More
+          Ask us
           <ChevronRight className="ml-2 h-4 w-4" />
         </Button>
+        </a>
       </div>
       <div className="relative flex h-[430px] w-full pt-4 pr-4 before:absolute before:inset-0 before:bg-primary/10 before:[mask-image:url(/images/block/patterns/cross-pattern.svg)] before:[mask-repeat:repeat] before:[mask-size:_32px_32px]">
         <div className="absolute inset-0 z-1 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent to-background opacity-70"></div>

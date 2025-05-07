@@ -34,6 +34,7 @@ export const Hero12 = () => (
         Power Automate, Power Pages, and Copilot
       </p>
       <div className="flex justify-center gap-3 mb-12">
+      <a href="./contact" className="hover:text-accent-foreground">
         <Button className="shadow-sm transition-shadow hover:shadow">
           Get Started
         </Button>
@@ -41,6 +42,7 @@ export const Hero12 = () => (
           Learn more
           <ExternalLink className="ml-2 h-4 transition-transform group-hover:translate-x-0.5" />
         </Button>
+        </a>
       </div>
       <div className="flex flex-wrap justify-center items-center gap-4">
         {[
@@ -67,7 +69,7 @@ export const Hero12 = () => (
         ].map((logo, idx) => (
           <a
             key={idx}
-            href="#"
+            href="https://www.microsoft.com/en-us/power-platform"
             className={cn(
               buttonVariants({ variant: "outline" }),
               "group flex aspect-square h-12 items-center justify-center p-0"

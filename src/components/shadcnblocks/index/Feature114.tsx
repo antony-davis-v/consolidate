@@ -11,59 +11,59 @@ import avatar1 from '@/assets/staffing/avatar1.png';
 import avatar2 from '@/assets/staffing/avatar2.png';
 import avatar3 from '@/assets/staffing/avatar3.png';
 import avatar4 from '@/assets/staffing/avatar4.png';
-import avatar5 from '@/assets/staffing/avatar5.png';
-import avatar6 from '@/assets/staffing/avatar6.png';
 import avatar7 from '@/assets/staffing/avatar7.png';
 import avatar8 from '@/assets/staffing/avatar8.png';
+import avatar9 from '@/assets/staffing/avatar9.png';
+import avatar10 from '@/assets/staffing/avatar10.png';
 
 const features = [
   {
-    title: "Senior Accountant",
-    description: "Skills: General Ledger, Month-End Closing, Taxation",
+    title: "Engineering Manager",
+    description: "Skills: BPA, RPA, UiPath, Kofax, Blue Prism, Bots",
     avatar: avatar1,
-    alt: "Senior Accountant",
+    alt: "Engineering Manager, Automation",
   },
   {
-    title: "Full-Stack Developer",
-    description: "Skills: React, Node.js, JavaScript, REST APIs",
+    title: "Product Manager",
+    description: "Skills: Agile Sprints,A/B Testing, Jira, Figma",
     avatar: avatar2,
-    alt: "Full-Stack Developer",
+    alt: "Product Manager",
   },
   {
-    title: "Data Scientist",
-    description: "Skills: Machine Learning, Statistical Modeling, Python",
+    title: "Frontend Engineer",
+    description: "Skills: React, TypeScript, Tailwind CSS,Component Libraries,",
     avatar: avatar3,
-    alt: "Data Scientist",
+    alt: "Frontend Engineer",
   },
   {
-    title: "Controller",
-    description: "Skills: Financial Reporting, Risk Management, Compliance",
+    title: "UI/UX Designer",
+    description: "Skills: User Flows, Wireframing, Prototyping, Figma, Adobe ",
     avatar: avatar4,
-    alt: "Controller",
+    alt: "UI/UX Designer",
   },
   {
-    title: "DevOps Engineer",
-    description: "Skills: AWS, Docker, Kubernetes, CI/CD",
-    avatar: avatar5,
-    alt: "DevOps Engineer",
-  },
-  {
-    title: "Financial Analyst",
-    description: "Skills: Forecasting, Valuation, Financial Modeling, Budgeting",
-    avatar: avatar6,
-    alt: "Financial Analyst",
-  },
-  {
-    title: "Cloud Architect",
-    description: "Skills: Azure, Infrastructure, Cloud Security, Virtualization",
+    title: "Head of Finance",
+    description: "Skills: IFRS & US‑GAAP, SEC Filings, Disclosure Management",
     avatar: avatar7,
-    alt: "Cloud Architect",
+    alt: "Head of Finance",
   },
   {
-    title: "Cybersecurity Specialist",
-    description: "Skills: Network Security, Penetration Testing, Firewalls",
+    title: "Investment Analyst",
+    description: "Skills: DCF Valuation, Comparable Analysis, Portfolio Optimization",
     avatar: avatar8,
-    alt: "Cybersecurity Specialist",
+    alt: "Investment Analyst",
+  },
+  {
+    title: "Credit Controller",
+    description: "Skills: Accounts Receivable, DSO Reduction, Credit Risk Scoring",
+    avatar: avatar9,
+    alt: "Credit Controller",
+  },
+  {
+    title: "Mortgage Specialist",
+    description: "Skills: Origination, Underwriting Guidelines, LTV Ratios",
+    avatar: avatar10,
+    alt: "Mortgage Specialist",
   },
 ];
 
@@ -78,9 +78,11 @@ const Feature114 = () => {
             <p className="mb-6 text-base text-muted-foreground">
               As a premier India-based offshore staffing partner, we help augment your in-house team with top-tier offshore talent from India—seamlessly connecting you with elite professionals. Tap into our curated network to reduce payroll costs and accelerate project delivery.
             </p>
+            <a href="./offshore-staffing" className="hover:text-accent-foreground">
             <Button>
               Dive Deeper <ChevronRight className="ml-2 h-4" />
             </Button>
+            </a>
           </div>
           <div className="grid gap-4 md:gap-7 lg:grid-cols-2">
             <Carousel

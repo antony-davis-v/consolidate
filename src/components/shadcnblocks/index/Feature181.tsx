@@ -64,12 +64,12 @@ const Feature181 = () => {
               create insightful visualizations, and deploy robust AI solutions—transforming
               complex data into strategic, actionable intelligence that fuels enterprise innovation.
             </p>
+            <a href="./data-and-ai" className="hover:text-accent-foreground">
             <Button>
-              <a href="/data-and-ai">
               Dive Deeper
-              </a>
               <ChevronRight className="ml-2 h-4 w-4" />
             </Button>
+            </a>
           </div>
         </div>
         <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-4">
@@ -85,7 +85,7 @@ const Feature181 = () => {
                 </h1>
               </div>
               <a
-                href="#"
+                href="./data-and-ai"
                 className="group flex items-center mt-4 mb-2 text-md font-semibold transition-colors hover:text-primary"
               >
                 {feature.title}

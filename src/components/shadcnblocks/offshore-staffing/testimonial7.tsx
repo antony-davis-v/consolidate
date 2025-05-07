@@ -136,9 +136,10 @@ const Testimonial7 = () => {
     <section className="py-32">
       <div className="container">
         <h1 className="mx-auto my-4 mb-6 max-w-3xl text-center text-3xl font-bold lg:text-5xl">
-          Power Your Business with India’s Best Remote Offshore Talent.
+        Looking to onboard top-tier Indian talent?
         </h1>
         <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
+        <a href="./contact" className="hover:text-accent-foreground">
           <Button size="lg">
             Hire Technology Talent
             <MoveRight className="ml-2" strokeWidth={1} />
@@ -147,6 +148,7 @@ const Testimonial7 = () => {
             Hire Accounting & Finance Talent
             <MoveRight className="ml-2" strokeWidth={1} />
           </Button>
+          </a>
         </div>
       </div>
       <div className="lg:container">

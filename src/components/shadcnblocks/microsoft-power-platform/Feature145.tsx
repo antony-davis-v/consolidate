@@ -81,7 +81,7 @@ const Feature145 = () => {
           </p>
           <a
             className="mx-auto mt-8 block w-fit rounded-full border-2 border-muted bg-white px-6 py-4 text-sm font-semibold transition hover:border-muted-foreground"
-            href="#"
+            href="./contact"
           >
             Get Started
           </a>

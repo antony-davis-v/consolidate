@@ -10,13 +10,13 @@ const Footer6 = () => {
               &copy; Valuenode Private Limited {currentYear}
             </div>
             <div className="flex flex-col items-start gap-4 text-xs text-muted-foreground sm:text-sm md:flex-row lg:items-center">
-              <a href="#" className="hover:text-accent-foreground">
+              <a href="./careers" className="hover:text-accent-foreground">
                 Careers
               </a>
-              <a href="#" className="hover:text-accent-foreground">
+              <a href="./legal" className="hover:text-accent-foreground">
                 Legal
               </a>
-              <a href="#" className="hover:text-accent-foreground">
+              <a href="./resources" className="hover:text-accent-foreground">
                 Resources
               </a>
             </div>

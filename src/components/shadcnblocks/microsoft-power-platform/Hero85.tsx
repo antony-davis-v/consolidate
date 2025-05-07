@@ -34,9 +34,12 @@ const Hero85 = () => {
               growth.
             </p>
             <div className="mt-10 flex flex-col gap-2 sm:flex-row">
+            <a href="./contact" className="hover:text-accent-foreground">
               <Button size="lg" className="w-full gap-2 sm:w-auto">
                 Partner with us
               </Button>
+              </a>
+              <a href="https://outlook.office365.com/book/Valuenode@valuenode.com/s/WVupA6gsR0KVVu36Q0-McA2" className="hover:text-accent-foreground">
               <Button
                 variant="outline"
                 size="lg"
@@ -44,6 +47,7 @@ const Hero85 = () => {
               >
                 Schedule a demo
               </Button>
+              </a>
             </div>
           </div>
           <div className="flex flex-col gap-8 lg:hidden">

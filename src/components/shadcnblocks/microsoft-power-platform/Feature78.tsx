@@ -47,10 +47,10 @@ const Feature78 = () => {
               Transform your workforce with AI Agents
             </h2>
             <a
-              href="#"
+              href="https://outlook.office365.com/book/Valuenode@valuenode.com/s/WVupA6gsR0KVVu36Q0-McA2"
               className="group flex items-center text-xs font-medium md:text-base lg:text-lg"
             >
-              Book a demo{" "}
+              Book a meeting{" "}
               <ArrowRight className="ml-2 size-4 transition-transform group-hover:translate-x-1" />
             </a>
           </div>
